@@ -1,5 +1,3 @@
-import { ADDRESS, PORT, PATH } from "./constant";
-
-const getURL = `${ADDRESS}:${PORT}${PATH}`;
+const getURL = (address, port, path) => `${address}:${port}${path}`
 
 export default getURL;
